@@ -75,6 +75,9 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    border: none;
+    width: 500px;
+    background: transparent;
 }
 
 #content {
@@ -179,7 +182,6 @@ body {
 }
 
 .envelope_wrap:hover .text_envelope {
-    color: gray;
     display: none;
     transition: ease-in-out;
 }
@@ -192,8 +194,11 @@ body {
     display: block;
 }
 
+.envelope_wrap:active {
+    outline: none;
+}
+
 .envelope_wrap:active .text_envelope {
-    color: gray;
     display: none;
     transition: ease-in-out;
 }
@@ -204,11 +209,13 @@ body {
 
 .envelope_wrap:active .text_envelope_text {
     display: block;
-    color: blue;
+}
+
+.envelope_wrap:focus {
+    outline: none;
 }
 
 .envelope_wrap:focus .text_envelope {
-    color: gray;
     display: none;
     transition: ease-in-out;
 }
@@ -219,7 +226,6 @@ body {
 
 .envelope_wrap:focus .text_envelope_text {
     display: block;
-    color: blue;
 }
 
 .heart {

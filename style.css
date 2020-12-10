@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Jost';
-    src: url(fonts/Jost-Regular.ttf) format('ttf'), url(fonts/Jost-Regular.otf) format('otf');
+    font-family: 'Jost', sans-serif;
+    src: url(fonts/Jost-Regular.ttf) format('ttf'), url(fonts/Jost-Regular.otf) format('otf'), url(fonts/Jost-Regular.woff) format('woff'), url(fonts/Jost-Regular.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -20,7 +20,7 @@ body {
 }
 
 .text {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
@@ -106,7 +106,6 @@ body {
 }
 
 .closed .mid {
-    /*background: #fff;*/
     width: 287px;
     margin: 0 auto;
     margin-top: -73px;
@@ -148,7 +147,7 @@ body {
 }
 
 .text_envelope {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
@@ -160,7 +159,7 @@ body {
 
 .text_envelope_text {
     padding: 10px;
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;

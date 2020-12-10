@@ -253,7 +253,7 @@ body {
     }
 
     .text50 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .text20 {
@@ -263,7 +263,7 @@ body {
 
 @media (max-width: 400px) {
     .text100 {
-        font-size: 70px;
+        font-size: 65px;
     }
 
     .envelope_wrap {

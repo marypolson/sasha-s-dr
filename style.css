@@ -6,6 +6,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(fonts/Raleway-Regular.ttf) format('ttf'), url(fonts/Raleway-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +28,7 @@ body {
 }
 
 .text {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
@@ -150,7 +158,7 @@ body {
 }
 
 .text_envelope {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
@@ -162,7 +170,7 @@ body {
 
 .text_envelope_text {
     padding: 10px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;

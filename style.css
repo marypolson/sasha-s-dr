@@ -259,25 +259,15 @@ body {
     .text20 {
         font-size: 16px;
     }
-
-    .envelope_wrap:active .text_envelope {
-        color: gray;
-        display: none;
-        transition: ease-in-out;
-    }
-
-    .envelope_wrap:active .closed {
-        display: none;
-    }
-
-    .envelope_wrap:active .text_envelope_text {
-        display: block;
-    }
 }
 
 @media (max-width: 400px) {
     .text100 {
         font-size: 70px;
+    }
+
+    .envelope_wrap {
+        width: 350px;
     }
 
     #content {
